@@ -2,9 +2,11 @@
 @import url("styles/banner.css");
 @import url("styles/carrossel.css");
 @import url("styles/topicos.css");
+@import url('/styles/contato.css');
 
 :root {
     --cor-de-fundo: #EBECEE;
+    --cor-de-contato:#E5E5E5;
     --branco: #FFFFFF;
     --laranja: #EB9B00;
     --azul: #002F52;
