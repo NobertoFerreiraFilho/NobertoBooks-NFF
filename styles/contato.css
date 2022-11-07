@@ -1,6 +1,6 @@
 .contato {
   width: 100vw;
-  background-color: var(--cor-de-contato);
+  background-color: var(--branco);
   padding: 1rem;
 }
 
@@ -19,7 +19,7 @@
 
 .contato__texto {
   font-weight: 300;
-  line-height: 24px;
+  line-height: 16px;
 }
 
 .contato__email {
@@ -36,4 +36,27 @@
     padding-left: 2rem;
     background: url(/img/Email.svg) no-repeat left;
     color: var(--azul);
+}
+
+@media screen and (min-width: 1024px){
+  .contato{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .contato__textos{
+    width: 30%;
+    margin-right: 3rem;
+
+  }
+
+  .contato__titulo {
+    font-size: 24px;
+  }
+
+  .contato__email {
+    width: 30%;
+  }
+
 }
