@@ -23,7 +23,7 @@
 }
 
 .topicos__item {
-  margin: 0.5rem 0.5rem;
+  margin: 0.75rem 0.75rem;
   background: var(--laranja);
   padding: 1rem;
 }
@@ -52,4 +52,25 @@
     line-height: 36px;
   }
 
+}
+
+@media screen and (min-width: 1728px){
+  .topicos{
+    padding: 4rem 0px;
+  }
+  .topicos__lista{
+    width: 50%;
+    margin: 0 auto;
+  }
+  
+  .contato__titulo {
+    font-size: 32px;
+  }
+
+  .topicos__item {
+    margin: 0.5rem 0.5rem;
+    background: var(--laranja);
+    padding: 1.5rem 2rem;
+
+}
 }

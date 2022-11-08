@@ -1,5 +1,4 @@
 .contato {
-  width: 100vw;
   background-color: var(--branco);
   padding: 2rem;
 }
@@ -59,4 +58,11 @@
     width: 30%;
   }
 
+}
+
+@media screen and (min-width: 1728px){
+  .contato {
+    background-color: var(--branco);
+    padding: 3rem 12rem;
+  }
 }
