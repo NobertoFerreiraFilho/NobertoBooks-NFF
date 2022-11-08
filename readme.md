@@ -1,4 +1,4 @@
-# HZC | Responsive WebApp using Flexbox for Mobile and Desktop
+# NobertoBooks | Responsive WebApp using Flexbox for Mobile and Desktop
 
 
 Project developed as part of the Alura course "HTML e CSS: responsividade com mobile-first".
