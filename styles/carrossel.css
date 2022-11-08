@@ -9,7 +9,7 @@
 }
 
 .swiper-slide img {
-  width: 100%;
+  width: 85%;
 }
 
 .swiper-button-prev,
@@ -92,9 +92,7 @@
 
 @media screen and (min-width: 1024px) {
   .swiper {
-    margin: auto;
-    width: 75vw;
-    padding: 0rem 0rem 0rem 3rem;
+    width: 70%;
   }
 
   .swiper-pagination {
@@ -121,5 +119,36 @@
     line-height: 24px;
   }
 
+}
+
+@media screen and (min-width: 1728px) {
+  .carrossel__container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 10vw 3rem 10vw ;
+  }
+
+  .swiper-pagination {
+    padding: 1rem 0rem 1rem;
+  }
+
+  .swiper{
+    margin-bottom: 3rem;
+    padding: 2rem;
+    width: 45%;
+  }
+
+  .swiper-button-prev,
+  .swiper-button-next {
+    padding: 1rem 1.2rem;
+    border-radius: 50%;
+    top: 55%;
+    scale:0.5;
+  }
+
+  .card{
+    width: 40%;
+  }
 
 }
