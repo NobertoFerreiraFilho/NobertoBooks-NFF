@@ -16,9 +16,7 @@ Project developed as part of the Alura course "HTML e CSS: responsividade com mo
 <img src='https://img.shields.io/github/issues/NobertoFerreiraFilho/NobertoBooks-NFF'>
 </p>
 
-<div align="center">
-<img src='https://github.com/NobertoFerreiraFilho/NobertoBooks-NFF/blob/master/img/projeto/NobertoBooks.gif' alt='gif of the project' align="center" width='400'/>
-</div>
+![gif of the project](https://github.com/NobertoFerreiraFilho/NobertoBooks-NFF/blob/master/img/projeto/NobertoBooks.gif#vitrinedev)
 
 ## Detalhes do projeto
 
